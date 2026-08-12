@@ -1,0 +1,23 @@
+{
+  "name": "claude-skills-mcp-connector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "typecheck": "tsc --noEmit",
+    "test:mcp": "tsx scripts/test-mcp.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^6.0.0",
+    "vercel": "^50.0.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
